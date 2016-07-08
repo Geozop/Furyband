@@ -1,0 +1,16 @@
+First off, I will do the credits:
+Thanks to DarkGod, the designer of TOME
+Thanks to Dan Rosenberry for the 1 Skill point FF reward patch
+Thanks to the runner of KillerBunnies.org for his patches
+Thanks to Furiosity, for this was originally based off of Theme
+Thanks to the programmer of NewAngband, for some of the flags
+Thanks to Zizzo for the Acanorum and the new Runecraft coding
+Thanks to the designer of Hengband, for the numerous monsters that I added from that
+Thanks to Burb for some of his special levels
+Thanks to the programmers of Adamant, T-Plus, Tome and a half, and anyone else that I forgot for some of the races and classes.
+Thanks to Cosmic Gerbil for a lot of the weapons, and the help files
+Thanks to ISNorden for some ideas.
+
+and an INSANELY LARGE amount of thanks to Zop for fixing a lot of the bugs and making this release possible.
+
+Also, thanks to everyone on the TOME forums for assistance with programming

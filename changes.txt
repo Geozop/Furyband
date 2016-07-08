@@ -1,0 +1,398 @@
+08 July 2016
+	Zop: Minor edits for compatibility with Visual Studio.
+
+
+
+Fury's changelist:
+
+
+
+Twelfth Release (5.1)
+
+Core Changes
+	
+	LightBranded Swords should no longer damage light-resistant monsters per Zop
+	RandArt Changes per Zop
+	Weapon Wielding changes per Zop
+	RES_MELEE works per Zop
+	More than 255 Artifacts supported Per Zop
+	Assorted other changes by Zop
+	Added the option to show current bounties in the "~" menu
+	Monster and Object Lists print out to CSV files now
+	Fir Trees and Mallorn Trees should Burn now. And should be passable with TreeWalking
+
+
+Spell Changes
+
+	Constructor Powers fixed per Zop
+	Full overhaul on Hunter Powers
+	Lowered the level Jedi's get "Force Learn"
+	Added Info on Some Ninja Powers
+	
+
+Monster Changes
+
+	Mother Hydra's now have the correct character
+	Reduced Experience given by Chtonians and other drastically over the top monsters
+	Moved great unclean ones to level 63 from level 53, as they're far more powerful than anything in that depth
+	Surtur the Giant Balrog now how has the "U" symbol
+	Increased Health of Mature Red and Bronze Dragons to match level
+	Removed most monsters from being aligned based on your player race
+	More Monster Egos
+
+
+Class/Race Changes
+
+	Ninjas get less of a modifier to Backstab, Ninja, Stealin, and Disarming. 
+	Ninjas get an increase of a modifier to swordmastery
+	Lowered the SkillOverLevel to 5 from 7
+	Major rebalance of the races and classes. 
+
+Store Changes
+	Added options for recharging at Furyband T
+
+Object Changes
+	Increased depth of some of the Maia weapons
+	More EGO items
+
+Level Changes
+	
+	No more Maedhros at Deathwatch
+	Improved the Spiders Lair
+	Some NEW Princess Quest Levels
+
+
+
+Eleventh Release (5.0/Gold)
+
+Class/race changes
+
+	Increased the level at which Jedi get AutoID and Precognition
+	Increased the level at which Berserkers get AutoID
+	Decreased the level at which Berserkers get Berserkers Recall
+	Jedi cannot have gods or pray
+	Dragons get -200 to sneakiness modifier
+	Berserkers now Aggravate
+	Jedi can ONLY wield lightsabers now as weapons
+	Non-jedi characters can't wear jedi robes or lightsabers
+	Mutants get -2 to speed at start 
+	Mutants now have 4 ring slots
+	Easterlings start with antimagic
+	Berserkers get stunning blows skill
+	Jedi get to pick their choice of lightsaber at start
+	Phase-warriors get Wraith at level 15 instead of level 25
+	Nightwalkers get a a little more intelligence and wisdom at start
+	Ettins only have 2 arms, not 4
+	Gugs get boulder throwing
+	Nagas have 1 set of arms, 2 heads, and only -2 to speed
+	2 Headed Hydras now have Hydra-combat as their melee rather than barehand
+	War Mages don't get flags now...
+	Priests get the god amulet for their respective gods.
+	Fixed problem with Udun and Death Warriors
+	Archers can worship gods
+	
+
+Skill Changes
+	
+	Increased the Basilisk Kill power level to 40, and Kill Monsters power to 50
+	Jedi-Dodge now increases the Jedi skill
+	Jedi no longer given by FF
+	Glowing Orb o' Light increased to Level 25, since it's pretty devestating a level 1 power
+	Increased the mana usage and failrate for the Basilisk kill monsters power
+	Jedi Lightening bolt has a chance to fire a beam 
+	Force Push and Pull now to BALL instead of BOLT
+	Decreased the fail rate of Force Kill
+	Minor adjustment to spider-combat
+	Constructer Dismantle Trap no longer has a beam mode
+	Removed Manastorm and Glowing Orb of Light for the time being
+	Various other minor adjustments to the Jedi powers
+
+
+Object Changes
+
+	Most of the objects now have a description
+	Staffs of Wings of the Winds and Wands of the Essence of Speed no longer give bonuses to speed when wielded
+	Removed the Map of Forodwaith
+	Greatly increased the rarity and depth of Deathly, Light, and Chargeable items
+	Increased the depths of some of the randart powers
+	Jedi items are now found much deeper and are rarer
+	Increased the depth of Psychoactive skins
+	Chargeable items have been temporarily disabled
+	Removed the mithril/yew/magic bows and crossbows
+	Reduced weapon damage dice to original value, except for a few artifacts
+	God amulets are now never generated. 
+	Fixed bug with Staff of Radagast
+	Loknare is now a Balance Dragon Mail not a Power Dragon Mail
+	
+	
+Bug Fixes
+
+	Battle Scarred Veteran and Mean Looking Mercenary now have proper hitpoints. No more UBERnasty Town monsters
+	Most monsters now give the correct experience, no more mega xp from killing simple monsters (Thanks to Zop)
+	Various other bugs and nuisances fixed by Zop
+
+Engine Fixes
+	
+	ALL weapons now attack for multiarmed characters (Thanks to Zop)
+	New Module "Furyband G", one dungeon, uber-classes, no towns, how deep can you go?
+	The ADJUST_LEVEL_PLAYER flag for dungeons works now. Makes all monsters Player Level * 2. 
+	No longer uses tome as the path internally
+	Furyband G can now load saved games
+	Fixed crash with hyrda-combat
+	Damages for weapons now show up correctly in the character sheet and the compare weapons screens
+	Leveling to level 75 should work correctly now (thanks to Zop)
+
+Monster Fixes
+	
+	Chiokovos no longer have : in front of the name
+	Only one Utgard-Loke now
+	Giant Tan Bats are now Tan
+	Fundin Bluecoat is now Royal Blue 
+	Ancient Obese Dragon is now Ancient Vile Dragon
+	Removed duplicate Improv
+	Heckblade now is called Doomblade
+
+
+
+Tenth Release (4.0)
+
+Engine Changes
+
+	Fixed the Chargeable Weapon bugs
+	Fixed Lost Sword Crash Bug
+	Game now supports level 75 characters. *** SAVEFILES ARE NOT COMPATIBLE ***
+	Normal now displays when characters food is less than full, but more than hungry
+
+
+Help Changes
+
+	Fixed Help files again
+
+Skill Changes
+
+
+	Removed a lot of the skills from FF quests
+	New Skill "Dragon-Combat" (note to modders, must have skill index of 99 to work)
+	New Skill "Spider-Combat" (note to modders, must have skill index of 100 to work)
+	New Skill "Basilisk-Combat" (note to modders, must have skill index of 101 to work)
+	Fixed Jedi power bugs
+	Fixed Perfect Casting bug
+	Fixed Construction Survery Area Bug
+	Removed First-aid as a default skill
+
+
+
+	Jedi and Swordmastery skill now affects Jedi Dodge chance. Items worn on the hands, head, and arms make it harder to dodge. Weapons,
+	armor, and cloaks make no difference to the dodge chance
+
+
+ObjecT/Artifact Changes
+
+	Added in CosmicGerbil's Ninja weapons and Ninja Script
+	Removed the AC penalty for bows and crossbows
+	Removed the Dwarven Rings
+	Added in new Jedi-related Artifacts, thanks to CosmicGerbil
+
+
+Power Changes
+	
+	Fixed Breathe Lightning Description
+	New school "Basilisk Powers" Linked in with the Basilisk Combat skill
+
+Monster Changes
+	
+	Most of the Chaos monsters now do CHAOS damage when they attack.
+	Most birds now do a PECK attack, instead of BITE attack
+	Crystal Drakes do SLASH attacks, instead of HURT attacks
+	Mature * Dragons give less XP than Ancient * Dragons
+	
+
+Race/Class Changes
+	
+	Removed Golden Armour power from dragons	
+	Removed auto-id from some races
+	Wainriders now cannot increase the stealth skill
+	Wainriders now cannot increase the devices skill
+	Dragons don't get Barehand-combat anymore
+	Dragons now get Dragon-combat
+	New Race "Monster"
+	New Subraces for "Monster"
+	Spiders don't have barehand anymore
+	Spiders now get Spider-combat
+	Golems now have some modifications
+	Jedi cannot wear hard or dragon armour
+	Jedi cannot wield or use ranged weapons
+
+Other Changes
+	
+	The Temple's Remove Curse now deducts gold. No more freebies
+	Hunter Encampment is now blocked off from the rest of the map
+	Dungeon in Hunter Encampment now goes to level 127, has random quests, and all monsters are leveled to twice the dungeon level.
+	
+	
+
+Ninth Release (3.0)
+
+Engine Changes
+	Added in New Flag, SENS_ACID. 
+	Added in New Flag, SENS_ELEC.
+	Changed Status Screen Settings
+	RES_MANA works now
+	Added in New Flag, KIN_PROTECT, when the monster with this flag is killed, it summons about 5-6 monsters with the same symbol around you.
+	New Colors, read colors.txt for the symbol info 
+	Removed BRAND_FIREWALL, BRAND_WATERWALL, and BRAND_FORCE. They don't work that well.
+	Added new attacks, PECK and HUG
+	Ego Captains DO NOT have KIN_PROTECT
+	New Attack Effect: CHAOS
+	New Flag: KILL_VAMPIRE, and Monster Flag: VAMPIRE
+	Graphics files come with FuryBand by default, no more downloading extra stuff.
+	PIETY added as monster effect type. Decreases piety with each hit. 
+	FOOD added as a monster effect type. Decreases food with each hit. Note that the hitdie for the monster attack should be high, otherwise the effect isn't noticeable
+	Named the Lost Sword Guy (but doesn't save, so it is random each time you load)
+	HOWL added as an attack type
+	ROAR added as an attack type
+	SLASH added as an attack effect. Whatever the hit die is is thrown right into cuts, *and* normal damage....
+	SAFETY should work now. No more permenant stuns
+	Fixed some object descriptions
+	Renamed Maiaologists to Maia-lore
+	New Flag, CHARGEABLE, using gold, it is possible to upgrade items with many different flags. 
+	Started updating tiles
+	The Automatizer should work now.
+	Status screen "evilcurse" bug should be fixed now
+	Monsters that steal no longer blink, they now get scared and run away. This is more realistic and entertaining.
+	
+
+Item Changes
+	Lightsabers can only be wielded by the Jedi Class
+	Added in Throwing Weapons, with a throwing skill. Anduril has throwing, as do daggers, spiked daggers, and stilettos. 
+	New EgoItem, *Slay Vampire*
+	Iron Spikes can be wielded, and have KILL_VAMPIRE as flag.
+	Added new ego item, Well-Balanced. They get bonuses from the throwing skill
+	New Ego Item, Chargeable. It has the CHARGEABLE flag
+	Some color changes
+	Thunderlord coat back in
+	Trone's Coat back in
+	Fixed a lot of things showing up as black boxes
+	Increased the depth of magic bows/xbows
+	Fixed some spells showing up in books when they shouldn't
+	Boots of Nevrast give climb
+
+Monster Changes
+	Variant Maintainers depth changed from 10 to 20
+	Crystal Drakes and Great Crystal Drakes do SLASH
+	Swordsman do SLASH
+	Some color changes
+	Defenceless Molds get KIN_PROTECT, not WYRM_PROTECT
+
+Tweaked classes and races
+	Beastmasters get Summoning as a skill
+	Axemasters can get throwing skill
+	Ninjas can get throwing skill, along with large modifiers to stealth, disarm, and sneakiness
+	Tweaks to Rogues, and Assassins
+	Tweaks to War Mages, including skill changes, and more resists.
+	Modified what classes are recommended for each race
+	Modified subraces and what races they work with
+	Golems and Maiar can no longer be Mutants
+	Classes that will have throwing are Ninja, Rogue, Assassin. Races include Human, Easterling, Kobold, Druadan. 
+	New class: Thrower. They get skills in throwing and in boomerangs. They also start out with a small supply of throwing daggers.
+	New class- Hunter
+	Hunters start out in their own custom town, with custom stores and weapons. For a dungeon, they have a small 30 level dungeon to complete
+	Golems can't be ancient, or vampire
+	Spiders can be ancient
+	Gave unbelievers some more points for sword-mastery
+	Dragons get golden armour. Pay 500,000 gold to increase your ac. From Annals of Ea
+	Mutants can wield rings
+
+
+Tweaked skills:
+	The Mind-blade skill now increases the mindcraft skill
+	Throwing Skill, weapons with THROWING flag do extra damage when thrown
+	New skill- Hunter powers
+	Constructor Powers Work!!!!
+	Fixed spell descriptions
+
+
+
+
+
+
+
+Eighth Release (2.7)
+
+Fixed the Iron Spike from getting mixed in with the normal spikes
+Golems have the feed self ability
+Made Phase-Warriors a little bit stronger, but they are still weak. They get innate im_nether
+Removed Spider Claws for the time being, so spiders are back to no shields/weapons
+Added in new Class War-Mage, and new subclasses for it
+Changed the rarity of the Lich monster ego from 22 to 11, so they will appear more often now. 
+Fixed description bug of Eagles and Dragons
+
+Seventh Release (2.5)
+
+Fixed Phasing, Maia, Ninja, and Jedi school spells/powers from showing up in spellbooks
+Added in Help Files, thanks to CosmicGerbil
+Added in the Hydra-Hybrid Dragon Subrace, Thanks to 2manyusernames for the idea
+Added in Mirurver. Thanks to CosmicGerbil for the script and item
+Added in some Mindcraft related objects. Thanks to Aran
+Added in SoulKnives. New class, thanks to Aran
+Added in the rest of the alchemy recipes
+Fixed Barrow Wights Misspelling
+Some Skulls are now wieldable
+Made a certain Artifact wieldable...
+
+*KNOWN ISSUES*
+Attack messages don't always show up, but this only happens in FuryBand
+Sometimes the terrain gets corrupted, going up and down the staircase fixes it.
+
+
+Sixth Release (2.0)
+
+BRAND_FIREWALL, BRAND_WATERWALL, and BRAND_FORCE work now.
+Removed the Insanity Attack Messages so that the above brands would work
+Greatly increased the cost of the Amulets of the Valar
+Stinking Cloud (BA_POIS) now leaves a small cloud of poison for a few turns
+R_IMMUNITY for EGO items now has a small chance of giving IM_NETHER in addition to the normal immunities
+Four new flags: GERBIL, RACEX, XEN, COMBINE, which are all race flags that do what it sounds like they do
+I think fixed the Orc Caves bug
+Started adding in firearms to the source code, but not to the game itself. They don't work at the moment
+Staffs can be wielded in the shield slot, and give the player a resist or flag. Note that the effect becomes less as the charges go down
+Staffs that are being wielded are also easier to 'U'se.
+Minor tweaks
+Minor changes to captions
+
+Fifth Release
+
+Added new flag PROTECT for objects. It halves all damage that you recieve. From NewAngband
+Added new flag ALWAYS_HIT for objects. It always hits what you attack. From NewAngband
+Added new flag SAFETY for objects. It makes you immune to stuns. From NewAngband
+Helms of Serenity have a 50% chance of having the SAFETY flag
+Dragon Mails of Defense have a 50% chance of having the PROTECT flag
+Misc. Balances and Changes here and there
+
+Fourth Release
+
+Added in Ninjas, complete with Ninja Skills
+Added in a bunch of new Maiaology equipment, with new spells
+Added in a group of new amulets
+
+Third Release
+
+New Class: Phase Warrior
+New Skill and School: Phasing
+New Monsters
+New Weapons
+Spider Race now has subraces, thanks to The Falcon
+Spiders now have a choice between Barehand and wielding a Spider Claw
+
+
+
+Second Release
+
+Don't use the RES_MANA flag. It doesn't work
+
+Added in Mindflayer, thanks to the Cosmic Gerbil
+Added in a bunch of new bows, thanks to the Cosmic Gerbil
+Added in the wall Hound
+A couple other misc. changes.
+
+First Release

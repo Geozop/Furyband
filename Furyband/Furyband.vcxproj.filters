@@ -14,4 +14,477 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="birth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bldg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmovie.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dungeon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="files.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen_evol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gen_maze.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ghost.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gods.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="help.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="irc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="levels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loadsave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main-win.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="melee1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="melee2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modules.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monster1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monster2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="monster3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="notes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plots.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="randart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="readdib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skills.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spells1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spells2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="squeltch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="status.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="store.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="traps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="variable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wild.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wizard1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wizard2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xtra1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xtra2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="z-form.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="z-rand.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="z-sock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="z-term.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="z-util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="z-virt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lauxlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lbaselib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldblib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lgc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\liolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\llex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstrlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltests.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lundump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\tolua.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\tolua_bd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\tolua_eh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\tolua_gp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\tolua_lb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\tolua_rg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\tolua_tm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\tolua_tt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\tolualua.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w_dun.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w_mnster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w_obj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w_play_c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w_player.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w_quest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w_spells.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="w_z_pack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_bind.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="script.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="z-form.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="z-rand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="z-sock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="z-term.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="z-util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="z-virt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h-basic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="angband.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h-config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h-define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h-system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h-type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plots.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="externs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="readdib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tolua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lauxlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lgc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llimits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lopcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luadebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lualib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lundump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lvm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lzio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\tolua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\tolua_eh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\tolua_rg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\tolua_tm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\tolua_tt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\tolualua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="angband.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="angband.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
