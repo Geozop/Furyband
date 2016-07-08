@@ -1,5 +1,7 @@
 This is Furyband, based on the game Tales of Middle-Earth (version 2). ToME mods "Theme", "T-Plus", and more were assimilated into the base game.
 
+To play, either download CompiledWindows.zip and just run the program, or build code as follows:
+
 ----------------------------------------
 To build on MSVC for Windows:
 ----------------------------------------
