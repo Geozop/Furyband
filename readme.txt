@@ -14,7 +14,7 @@ Open solution file and press F5
 To build elsewhere:
 ----------------------------------------
 
-Extract OriginalSource.zip to a new folder and use the make utility with the appropriate makefile.
+Extract AllSources.zip to a new folder and use the make utility with the appropriate makefile.
 
 For example, compiling for Windows using Cygwin:
 
