@@ -1,4 +1,4 @@
-This is Furyband, based on the game Tales of Middle-Earth (version 2). ToME mods "Theme", "T-Plus", and more were assimilated into the base game.
+This is Furyband, based on the game Tales of Middle-Earth (version 2). ToME mods "Theme", "T-Plus", and more were assimilated into the base game. Also included is the Zop's Furyband mod.
 
 To play, either download CompiledWindows.zip and just run the program, or build code as follows:
 
