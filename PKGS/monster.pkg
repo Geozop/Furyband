@@ -266,11 +266,11 @@ static monster_type lua_monster_forge @ monster_forge;
 /** @def RF2_AURA_FIRE
  * @note Burns in melee 
  */
-#define RF2_AURA_FIRE                   0x00004000      
+#define RF8_AURA_FIRE                   0x00040000      
 /** @def RF2_AURA_ELEC
  * @note Shocks in melee 
  */
-#define RF2_AURA_ELEC                   0x00008000      
+#define RF8_AURA_ELEC                   0x00080000      
 /** @def RF2_OPEN_DOOR
  * @note Monster can open doors 
  */
@@ -374,7 +374,7 @@ static monster_type lua_monster_forge @ monster_forge;
 /** @def RF3_AURA_COLD
  * @note Freezes in melee 
  */
-#define RF3_AURA_COLD                        0x00000400      
+#define RF8_AURA_COLD                        0x00100000      
 /** @def RF3_NONLIVING
  * @note TY: Non-Living (?) 
  */
