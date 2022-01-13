@@ -1336,7 +1336,7 @@ static void gen_random_quests(int n)
 	dungeon_type = old_type;
 }
 
-int dump_classes(s16b *classes, int sel, u32b *restrict)
+int dump_classes(s16b *classes, int sel, u32b *restrictions)
 {
 	int n = 0;
 
@@ -1377,15 +1377,15 @@ int dump_classes(s16b *classes, int sel, u32b *restrict)
 			        cp_ptr->flags1 & PR1_EXPERIMENTAL ? "\nEXPERIMENTAL" : "");
 			print_desc(desc);
 
-			if (!(restrict[classes[n] / 32] & BIT(classes[n])) ||
-			                cp_ptr->flags1 & PR1_EXPERIMENTAL)
+			if (!((restrictions[classes[n] / 32]) & BIT(classes[n])) ||
+                            cp_ptr->flags1 & PR1_EXPERIMENTAL)
 				c_put_str(TERM_BLUE, buf, 18 + (n / 4), 1 + 20 * (n % 4));
 			else
 				c_put_str(TERM_L_BLUE, buf, 18 + (n / 4), 1 + 20 * (n % 4));
 		}
 		else
 		{
-			if (!(restrict[classes[n] / 32] & BIT(classes[n])) ||
+			if (!(restrictions[classes[n] / 32] & BIT(classes[n])) ||
 			                cp_ptr->flags1 & PR1_EXPERIMENTAL)
 				c_put_str(TERM_SLATE, buf, 18 + (n / 4), 1 + 20 * (n % 4));
 			else
@@ -1650,7 +1650,7 @@ static bool player_birth_aux_ask()
 
 	int racem[100], max_racem = 0;
 
-	u32b restrict[2];
+	u32b restrictions[2];
 
 	cptr str;
 
@@ -2022,7 +2022,7 @@ static bool player_birth_aux_ask()
 		int z;
 
 		for (z = 0; z < 2; z++)
-			restrict[z] = (rp_ptr->choice[z] | rmp_ptr->pclass[z]) & (~rmp_ptr->mclass[z]);
+			restrictions[z] = (rp_ptr->choice[z] | rmp_ptr->pclass[z]) & (~rmp_ptr->mclass[z]);
 
 		if (max_mc_idx > 1)
 		{
@@ -2075,7 +2075,7 @@ static bool player_birth_aux_ask()
 		{
 			/* Dump classes */
 			sel = 0;
-			n = dump_classes(class_types, sel, restrict);
+			n = dump_classes(class_types, sel, restrictions);
 
 			/* Get a class */
 			while (1)
@@ -2103,7 +2103,7 @@ static bool player_birth_aux_ask()
 				{
 					sel += 4;
 					if (sel >= n) sel %= 4;
-					dump_classes(class_types, sel, restrict);
+					dump_classes(class_types, sel, restrictions);
 				}
 				else if (c == '8')
 				{
@@ -2111,19 +2111,19 @@ static bool player_birth_aux_ask()
 					if (sel < 0) sel = n - 1 -( ( -sel) % 4);
 					/* C's modulus operator does not have defined
 					 results for negative first values. Damn. */
-					dump_classes(class_types, sel, restrict);
+					dump_classes(class_types, sel, restrictions);
 				}
 				else if (c == '6')
 				{
 					sel++;
 					if (sel >= n) sel = 0;
-					dump_classes(class_types, sel, restrict);
+					dump_classes(class_types, sel, restrictions);
 				}
 				else if (c == '4')
 				{
 					sel--;
 					if (sel < 0) sel = n - 1;
-					dump_classes(class_types, sel, restrict);
+					dump_classes(class_types, sel, restrictions);
 				}
 				else if (c == '\r')
 				{
@@ -2135,8 +2135,8 @@ static bool player_birth_aux_ask()
 		}
 
 		/* Set class */
-#ifdef RESTRICT_COMBINATIONS
-		if (!(restrict & BIT(k)))
+#ifdef RESTRICTIONS_COMBINATIONS
+		if (!(restrictions & BIT(k)))
 		{
 			noscore |= 0x0020;
 			message_add(MESSAGE_MSG, " ", TERM_VIOLET);
