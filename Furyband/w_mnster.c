@@ -1,6 +1,6 @@
 /*
 ** Lua binding: monster
-** Generated automatically by tolua 4.0a - angband on 08/01/07 21:25:27.
+** Generated automatically by tolua 4.0a - angband on Wed Jan 12 22:46:57 2022.
 */
 
 #include "lua/tolua.h"
@@ -2960,8 +2960,8 @@ void tolua_monster_close (lua_State* tolua_S)
  lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF2_ATTR_ANY");
  lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF2_POWERFUL");
  lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF2_ELDRITCH_HORROR");
- lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF_AURA_FIRE");
- lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF_AURA_ELEC");
+ lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF8_AURA_FIRE");
+ lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF8_AURA_ELEC");
  lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF2_OPEN_DOOR");
  lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF2_BASH_DOOR");
  lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF2_PASS_WALL");
@@ -2988,7 +2988,7 @@ void tolua_monster_close (lua_State* tolua_S)
  lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF3_ANIMAL");
  lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF3_THUNDERLORD");
  lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF3_GOOD");
- lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF_AURA_COLD");
+ lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF8_AURA_COLD");
  lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF3_NONLIVING");
  lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF3_HURT_LITE");
  lua_pushnil(tolua_S); lua_setglobal(tolua_S,"RF3_HURT_ROCK");
