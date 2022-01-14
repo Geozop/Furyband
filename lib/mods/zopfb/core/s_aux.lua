@@ -122,11 +122,18 @@ function get_level_school(s, max, min)
 	end
 
 	-- Do we pass tests?
-	if __tmp_spells[s].depend then
-		if __tmp_spells[s].depend() ~= TRUE then
-			return min, "n/a"
+  	if __tmp_spells[s] then
+	  	if __tmp_spells[s].depend then
+			if __tmp_spells[s].depend() ~= TRUE then
+				return min, "n/a"
+			end
 		end
-	end
+        end
+
+        if (not __spell_school[s]) then
+           -- min sets max mana to zero if it hits here
+           return max, "n/a"
+        end
 
 	for index, sch in __spell_school[s] do
 		local r, s, p, ok = 0, 0, 0, 0
